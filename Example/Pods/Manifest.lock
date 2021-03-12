@@ -1,0 +1,16 @@
+PODS:
+  - VineCrawlPager (0.1.0)
+
+DEPENDENCIES:
+  - VineCrawlPager (from `../`)
+
+EXTERNAL SOURCES:
+  VineCrawlPager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VineCrawlPager: e20fa9af098e98d0653250e295e4e9b15d3416b9
+
+PODFILE CHECKSUM: 1e416ccb9d491c1b936f7a4021133b0444424208
+
+COCOAPODS: 1.8.3

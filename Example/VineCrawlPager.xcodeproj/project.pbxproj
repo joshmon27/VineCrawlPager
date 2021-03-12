@@ -31,7 +31,7 @@
 		0B51C7211F6542BE3A1DF4EA /* Pods_VineCrawlPager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VineCrawlPager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4FC9463C1E8A01290F6AD9 /* Pods-VineCrawlPager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VineCrawlPager_Tests.release.xcconfig"; path = "Target Support Files/Pods-VineCrawlPager_Tests/Pods-VineCrawlPager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		55233DACBAEA13A138D67BFE /* Pods-VineCrawlPager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VineCrawlPager_Example.debug.xcconfig"; path = "Target Support Files/Pods-VineCrawlPager_Example/Pods-VineCrawlPager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		607227C6177A62E6BACD723F /* VineCrawlPager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VineCrawlPager.podspec; path = ../VineCrawlPager.podspec; sourceTree = "<group>"; };
+		607227C6177A62E6BACD723F /* VineCrawlPager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VineCrawlPager.podspec; path = ../VineCrawlPager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* VineCrawlPager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VineCrawlPager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* VineCrawlPager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VineCrawlPager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B7EDF0290EE4A8941AF9884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		81DCDC9C5C8752335EE89034 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B7EDF0290EE4A8941AF9884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		81DCDC9C5C8752335EE89034 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		92E11B10B0FC6C8C2A140219 /* Pods_VineCrawlPager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VineCrawlPager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8620CCD984B0F9958BCC64 /* Pods-VineCrawlPager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VineCrawlPager_Example.release.xcconfig"; path = "Target Support Files/Pods-VineCrawlPager_Example/Pods-VineCrawlPager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD735C1769E538212DE09B8A /* Pods-VineCrawlPager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VineCrawlPager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VineCrawlPager_Tests/Pods-VineCrawlPager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				BD735C1769E538212DE09B8A /* Pods-VineCrawlPager_Tests.debug.xcconfig */,
 				4E4FC9463C1E8A01290F6AD9 /* Pods-VineCrawlPager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

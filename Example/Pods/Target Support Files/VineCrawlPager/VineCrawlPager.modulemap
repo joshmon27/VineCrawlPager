@@ -1,0 +1,6 @@
+framework module VineCrawlPager {
+  umbrella header "VineCrawlPager-umbrella.h"
+
+  export *
+  module * { export * }
+}
