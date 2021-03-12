@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VineCrawlPager_Example' do
+  pod 'VineCrawlPager', :path => '../'
+
+  target 'VineCrawlPager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
